@@ -1,0 +1,237 @@
+@CHARSET "UTF-8";
+
+body {
+	padding: 0px;
+	margin: 0px;
+}
+
+article {
+	padding: 10px;
+}
+
+.center-container {
+	width: 960px;
+	margin: 0 auto;
+	padding: 10px 0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+	background-color: #c0c0c0;
+}
+
+.center-container header:AFTER {
+	content:"";
+	display: block;
+	clear: both;
+}
+
+.logo {
+	width: 275px;
+	float: left;
+}
+
+.top-menu {
+	float: left;
+	width: 665px;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.top-menu:AFTER {
+	content:"";
+	display: block;
+	clear: both;
+}
+
+.top-menu ul {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+
+.top-menu ul:AFTER {
+	content:"";
+	display: block;
+	clear: both;
+}
+
+.top-menu ul li {
+	float: left;
+	margin: 0px 10px;
+}
+
+.top-menu ul li:FIRST-CHILD {
+	margin-left: 0px;
+}
+
+.search {
+	float: left;
+	width: 665px;
+	padding-left: 20px;
+}
+
+.search-form input[type="text"] {
+	width: 560px;
+}
+
+.middle-menu ul {
+	padding: 0px;
+	margin: 0px auto;
+	list-style: none;
+	width: 600px;
+}
+
+.middle-menu:AFTER {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.middle-menu ul li {
+	float: left;
+	margin: 0px 10px;
+}
+
+
+.content:AFTER {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/*Контент*/
+.content-area {
+	width: 640px;
+	padding: 10px;
+	float: left;
+}
+
+/*Сайдбар*/
+.content-sidebur {
+	width: 260px;
+	padding: 10px;
+	float: left;
+}
+
+.promo-list {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+
+.promo-list .promo-item {
+	margin: 10px 0px;
+	padding:10px 5px;
+	border: 1px dashed #000;
+}
+
+.promo-item-block:AFTER {
+	content: "";
+	display: block;
+	clear: both;
+} 
+
+.promo-item-block-left {
+	width: 150px;
+	float: left;
+}
+
+.promo-item-block-center {
+	width: 350px;
+	float: left;
+}
+
+/*Список магазинов*/
+.content-sidebur-top-shops ul {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+
+.content-sidebur-top-shops ul li {
+	float: left;
+	margin-right: 5px;
+}
+
+.content-sidebur-top-shops:AFTER {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.footer-menu {
+	margin: 20px 0px;
+}
+
+.footer-menu ul {
+	margin: 0 auto;
+	padding: 0px;
+	list-style: none;
+	width: 600px;
+}
+
+.footer-menu:AFTER {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.footer-menu ul li {
+	float: left;
+	margin: 0px 10px;
+}
+
+.top-shops-item {
+	margin: 10px 0px;
+}
+
+.top-shops-item:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.top-shops-item img {
+	float: left;
+	padding-right: 5px;
+	padding-bottom: 5px;
+}
+
+.top-shops-item p {
+	margin: 5px 0px;
+}
+
+footer:AFTER {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.copyright {
+	width: 700px;
+	padding-left:10px;
+	float: left;
+}
+
+.social-block {
+	width: 200px;
+	float: left;
+}
+
+.social-block:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.social-block ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.social-block ul li {
+	float: left;
+	margin: 0px 10px;
+}
