@@ -4,7 +4,7 @@
 		<title>Умные покупки - промокоды</title>
 		<meta charset="utf-8" >
 		<link href='https://fonts.googleapis.com/css?family=Noto+Sans:400,400italic,700,700italic&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="/css/style.css" >
+		<link rel="stylesheet" href="css/style.css" >
 	</head>
 	<body>
 	<div class="header-container" >
@@ -34,11 +34,37 @@
 		<div class="center-container" >
 			<div class="middle-menu" >
 				<ul>
-					<li><a href="#" >Популярные</a></li>
-					<li><a href="#" >Купоны по категориям</a></li>
-					<li><a href="#" >Новые</a></li>
-					<li><a href="#" >Горящие</a></li>
-					<li><a href="#" >Все магазины</a></li>
+					<li><a id="popular" href="#" >Популярные</a></li>
+					<li><a id="category" href="#" >Купоны по категориям</a></li>
+					<li><a id="new" href="#" >Новые</a></li>
+					<li><a id="att" href="#" >Горящие</a></li>
+					<li><a id="all" href="#" >Все магазины</a></li>
+				</ul>
+			</div>
+			
+			<div class="category-coupons hidden" >
+				<ul>
+					<li><a href="#">Детские товары</a></li>
+					<li><a href="#">Для взрослых</a></li>
+					<li><a href="#">Для животных</a></li>
+					<li><a href="#">Еда</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">Книги</a></li>
+					<li><a href="#">Красота и здоровье</a></li>
+					<li><a href="#">Мода и аксессуары</a></li>
+					<li><a href="#">Одежда и обувь</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">Спорт и отдых</a></li>
+					<li><a href="#">Страхование и финансы</a></li>
+					<li><a href="#">Товары для дома</a></li>
+					<li><a href="#">Услуги</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">Цветы и подарки</a></li>
+					<li><a href="#">Цифровая и бытовая техника</a></li>
+					<li><a href="#">Часы и аксессуары</a></li>
 				</ul>
 			</div>
 		</div>
@@ -47,7 +73,7 @@
 	<div class="center-container" >
 		<div class="content" >
 			<div class="content-area" >
-				<h1>Список новых промокодов</h1>
+				<h1>Промокоды сентябрь - октябрь 2015</h1>
 				<ul class="promo-list">
 				
 					<li class="promo-item">
@@ -64,7 +90,7 @@
 								Скидка распространяется только на товары из данного раздела.</p>
 								
 								<a class="use-promo" href="#">Использовать промокод</a>
-								<a class="see-all-coupons" href="#">все промокоды</a>
+								<a class="see-all-coupons" href="#">все промокоды магазина Техносила</a>
 							</div>
 							<div  class="promo-item-block-right" >
 								<div class="promo-item-sale-marker persent" >
@@ -95,7 +121,7 @@
 								Скидка распространяется только на товары из данного раздела.</p>
 								
 								<a class="use-promo" href="#">Использовать промокод</a>
-								<a class="see-all-coupons" href="#">все промокоды</a>
+								<a class="see-all-coupons" href="#">все промокоды магазина myToys</a>
 							</div>
 							<div  class="promo-item-block-right" >
 								<div class="promo-item-sale-marker free-delivery" >
@@ -105,7 +131,7 @@
 								<div class="promo-item-coupon-timer" >
 									<span>Действителен ещё</span>
 									<span class="coupon-time" >
-										<strong>1</strong> день
+										<strong>3</strong> дня
 									</span>
 								</div>
 							</div>
@@ -126,7 +152,7 @@
 								Скидка распространяется только на товары из данного раздела.</p>
 								
 								<a class="use-promo" href="#">Использовать промокод</a>
-								<a class="see-all-coupons" href="#">все промокоды</a>
+								<a class="see-all-coupons" href="#">все промокоды магазина Babadu</a>
 							</div>
 							<div  class="promo-item-block-right" >
 								<div class="promo-item-sale-marker cash" >
@@ -136,7 +162,7 @@
 								<div class="promo-item-coupon-timer" >
 									<span>Действителен ещё</span>
 									<span class="coupon-time" >
-										<strong>1</strong> день
+										<strong>5</strong> дней
 									</span>
 								</div>
 							</div>
@@ -340,9 +366,9 @@
 	</div>
 
 	
-	<script type="text/javascript" href="/js/jquery-1.11.3.min.js" ></script>
-	<script type="text/javascript" href="/js/init.js" ></script>
-	<script type="text/javascript" href="/js/script.js" ></script>
+	<script type="text/javascript" href="js/jquery-1.11.3.min.js" ></script>
+	<script type="text/javascript" href="js/init.js" ></script>
+	<script type="text/javascript" href="js/script.js" ></script>
 	
 	</body>
 </html>
